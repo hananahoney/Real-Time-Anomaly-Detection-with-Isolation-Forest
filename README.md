@@ -30,7 +30,7 @@ pip install -r requirements.txt
    ```
 3. Run the script to see real-time anomaly detection in action:
    ```
-   python anomaly_detection.py
+   python main.py
    ```
 
 ## 📊 Visualization:

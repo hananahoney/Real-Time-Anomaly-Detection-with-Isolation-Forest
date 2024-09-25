@@ -3,7 +3,7 @@
 
 This repository contains a Python implementation for **real-time anomaly detection** using the **Isolation Forest** algorithm. It dynamically detects outliers in a continuous data stream and visualizes the results in real time, making it ideal for monitoring systems, detecting fraud, and identifying unusual patterns.
 
-## 🛠️ Features:
+## Features:
 - **Data Stream Simulation**: Generates a stream of Gaussian-distributed data points with injected anomalies.
 - **Sliding Window Detection**: The Isolation Forest model is retrained on a sliding window of data to ensure it adapts to evolving patterns.
 - **Real-Time Anomaly Detection**: Each incoming data point is classified as normal or anomalous, with anomalies highlighted in real time.
@@ -19,21 +19,17 @@ You can install all dependencies via:
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage:
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/anomaly-detection-stream.git
-   ```
-2. Install the required dependencies:
+## Usage:
+1. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Run the script to see real-time anomaly detection in action:
+2. Run the script to see real-time anomaly detection in action:
    ```
    python main.py
    ```
 
-## 📊 Visualization:
+## Visualization:
 The visualization dynamically updates as data flows in, showing how the Isolation Forest detects anomalies in real time. Normal points are plotted in blue, and anomalies are flagged in red.
 
 ## 💡 Use Cases:

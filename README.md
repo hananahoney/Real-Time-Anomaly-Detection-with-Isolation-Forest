@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Visualization:
 The visualization dynamically updates as data flows in, showing how the Isolation Forest detects anomalies in real time. Normal points are plotted in blue, and anomalies are flagged in red.
 
-## 💡 Use Cases:
+## Use Cases:
 - Fraud detection in financial systems
 - Intrusion detection in cybersecurity
 - Monitoring and alerting for system failures
